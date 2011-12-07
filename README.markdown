@@ -11,15 +11,9 @@ Rails3.0.8+/Ruby1.8.7+
 
 ## Usage:
 
-**you need install pygments**
-
-    easy_install pygments
-
 a. In Gemfile:
 
     gem "redcarpet"
-    gem "albino"
-    gem "nokogiri"
     gem 'rails_markitup'
 
 b. Then run :
