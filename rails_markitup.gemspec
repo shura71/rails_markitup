@@ -2,7 +2,6 @@
 $:.push File.expand_path("../lib", __FILE__)
 require "rails_markitup/version"
 require "rails_markitup/engine"
-require "rake"
 
 Gem::Specification.new do |s|
   s.name        = "rails_markitup"
