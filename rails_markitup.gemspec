@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.homepage    = ""
   s.summary     = %q{A MarkDown TextEditor}
   s.description = %q{A MarkDown TextEditor with jQuery and Markitup! and redcarpet}
-  s.files       =  Dir["{app,config,lib}/**/*"] + ["Rakefile", "Gemfile", "README.rdoc"]
+  s.files       =  Dir["{app,config,lib}/**/*"] + ["Rakefile", "Gemfile", "README.markdown"]
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.rubyforge_project = "rails_markitup"
 
