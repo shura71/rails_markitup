@@ -11,7 +11,6 @@ Gem::Specification.new do |s|
   s.homepage    = ""
   s.summary     = %q{A MarkDown TextEditor}
   s.description = %q{A MarkDown TextEditor with jQuery and Markitup! and redcarpet}
-  s.files       =  FileList["[A-Z]*", "{app,config,lib}/**/*"]     
   s.files       =  Dir["{app,config,lib}/**/*"] + ["Rakefile", "Gemfile", "README.rdoc"]
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.extra_rdoc_files = FileList["[A-Z]*"] - %w(Gemfile Rakefile)
